@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "project",
   "info": {
     "name": "project",
     "description": "A project has a goal, a timeline and fixed set of resources."
@@ -32,6 +32,10 @@
     "assignments": {
       "collection": "assignment",
       "via": "project"
+    },
+    "code": {
+      "default": "",
+      "type": "string"
     }
   }
 }

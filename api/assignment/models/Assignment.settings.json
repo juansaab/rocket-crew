@@ -11,8 +11,7 @@
   "attributes": {
     "project": {
       "model": "project",
-      "via": "assignments",
-      "dominant": true
+      "via": "assignments"
     },
     "start_date": {
       "default": "",
