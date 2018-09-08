@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "assignment",
   "info": {
     "name": "assignment",
     "description": "An specific resource assigned to a Project."
@@ -31,6 +31,13 @@
     "hours": {
       "default": "",
       "type": "integer"
+    },
+    "Seniority": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Trainee\nJunior\nJunior Advanced\nSemi Senior\nSemi Senior Advanced\nSenior\nSenior Advanced\nManager\nDirector\nCxO"
+      ]
     }
   }
 }
