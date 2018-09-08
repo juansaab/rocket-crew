@@ -38,6 +38,14 @@
       "enum": [
         "Trainee\nJunior\nJunior Advanced\nSemi Senior\nSemi Senior Advanced\nSenior\nSenior Advanced\nManager\nDirector\nCxO"
       ]
+    },
+    "performance": {
+      "default": "",
+      "type": "integer"
+    },
+    "evaluation": {
+      "default": "",
+      "type": "text"
     }
   }
 }
