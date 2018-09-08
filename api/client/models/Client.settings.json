@@ -12,6 +12,10 @@
     "name": {
       "default": "",
       "type": "string"
+    },
+    "project": {
+      "model": "project",
+      "via": "client"
     }
   }
 }

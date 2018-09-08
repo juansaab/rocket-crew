@@ -36,6 +36,10 @@
     "code": {
       "default": "",
       "type": "string"
+    },
+    "client": {
+      "model": "client",
+      "via": "project"
     }
   }
 }
