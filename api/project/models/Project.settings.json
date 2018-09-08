@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "project",
+    "description": "A project has a goal, a timeline and fixed set of resources."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "start_date": {
+      "default": "",
+      "type": "date"
+    },
+    "end_date": {
+      "default": "",
+      "type": "date"
+    },
+    "goal": {
+      "default": "",
+      "type": "text"
+    },
+    "total_hours": {
+      "default": "",
+      "type": "integer"
+    },
+    "assignments": {
+      "collection": "assignment",
+      "via": "project"
+    }
+  }
+}
